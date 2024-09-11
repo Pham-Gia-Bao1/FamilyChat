@@ -1,0 +1,78 @@
+/* Home.css */
+.landing-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #4c68d7, #6a8eff);
+    color: white;
+    padding: 20px;
+  }
+
+  .landing-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .landing-header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .landing-header p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .landing-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .landing-image {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .landing-features {
+    width: 45%;
+  }
+
+  .landing-features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .landing-features ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .landing-features ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .chat-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff9000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .chat-button:hover {
+    background-color: #ff6700;
+  }
